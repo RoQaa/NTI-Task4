@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #333333;
+}
+
+.f-pop {
+    font-family: "Poppins", sans-serif;
+}
+
+.f-size {
+    font-size: xx-large;
+}
+
+.mute-color {
+    color: #4D4D4D;
+}
+
+.bg-color {
+    background-color: var(--main-color);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w- {
+    width: 5%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-18 {
+    width: 18%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-75 {
+    width: 75%
+}
+
+.mBottom-1 {
+    margin-bottom: 1%;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.jcontent-between {
+    justify-content: space-between;
+}
+
+.my-1 {
+    margin-top: 0.8%;
+    margin-bottom: 0.8%;
+}
+
+
+.border-bottom {
+    border-bottom: 2px solid #E6E6E6;
+}
+
+/* body {
+    height: 5000px;
+} */
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+}
+
+.navbar .header {
+    color: #666666;
+
+}
+
+.navbar .header .right {
+    width: 19%;
+}
+
+.vrLine {
+    background-color: #E6E6E6;
+    width: 22px;
+    height: 1px;
+    color: #E6E6E6;
+    transform: rotate(90deg);
+    align-self: center;
+}
+
+/* middle */
+.east .details p:nth-child(1) {
+    font-size: small;
+}
+
+.search-bar input {
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-right: 4%;
+    padding-left: 6%;
+    outline: none;
+    border: 1px solid #E5E5E5;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-bar button {
+    padding: 0 7%;
+    align-self: stretch;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #00B207;
+    font-weight: 600;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+}
+
+/* Bottom */
+.navbar .bottom {
+    padding: 1.3% 0;
+}
+
+.navbar .bottom ul {
+    list-style: none;
+}
+
+.navbar .bottom .link {
+    color: #999999;
+    text-decoration: none;
+}
+
+/* Hero page */
