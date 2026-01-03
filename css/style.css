@@ -40,12 +40,18 @@
     width: 15%;
 }
 
+.w-16 {
+    width: 15%;
+}
+
 .w-18 {
     width: 18%;
 }
-.w-20{
+
+.w-20 {
     width: 20%;
 }
+
 .w-25 {
     width: 25%;
 }
@@ -85,9 +91,11 @@
 .w-75 {
     width: 75%
 }
-.w-80{
+
+.w-80 {
     width: 80%;
 }
+
 .w-90 {
     width: 90%;
 }
@@ -113,6 +121,11 @@
 .my-1 {
     margin-top: 0.8%;
     margin-bottom: 0.8%;
+}
+
+.my-2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .pTop-1 {
@@ -199,7 +212,7 @@
 }
 
 
-/* screen-1 */
+/* hero */
 .banner .left img {
     border-radius: 10px;
 }
@@ -213,3 +226,32 @@
     border-radius: 8px;
     padding: 2% 0;
 }
+
+/* Popular Categoreis */
+.category .head h2 {
+    font-weight: 600;
+    color: #1A1A1A;
+    font-size: 2rem;
+}
+
+.category .head a {
+    text-decoration: none;
+    color: #00B207;
+}
+
+.products {
+    flex-wrap: wrap;
+}
+
+.products .card {
+    height: 213px;
+    border: 2px solid #E5E5E5;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+.products .card h3{
+    font-weight: 500;
+    color: #1A1A1A;
+}
+/* TODO: hover Cats */
