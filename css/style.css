@@ -100,6 +100,10 @@
     width: 90%;
 }
 
+.mLeft-3{
+    margin-left: 3%;
+}
+
 .mBottom-1 {
     margin-bottom: 1%;
 }
@@ -278,11 +282,12 @@
 
 
 .cats .card {
-    height: 213px;
+    /* height: 213px; */
     border: 2px solid #E5E5E5;
     border-radius: 8px;
     outline: none;
     text-align: center;
+    padding: 1.5% 0;
 }
 
 .cats .card h3 {
@@ -344,7 +349,7 @@
     border-bottom: 2px solid #E5E5E5;
 
 }
-/* FIXME: fix hover */
+
 .continer-deal:hover {
     border-top: 2px solid #E5E5E5;
     border-right: 2px solid #E5E5E5;
@@ -353,5 +358,19 @@
     /* transform: scale(2,2); */
     /* margin-right: 20%; */
     width: 40%;
-    
+
+}
+
+
+/* Lastest News */
+
+.news .items .item {
+    box-shadow: 0px 8px 30px rgba(0, 38, 3, 0.288);
+    border-radius: 8px;
+}
+
+.news .items .item .data p {
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
 }
