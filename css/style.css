@@ -136,15 +136,54 @@
     border-bottom: 2px solid #E6E6E6;
 }
 
-/* body {
-    height: 5000px;
-} */
+.border-right{
+    border-right:2px solid #E5E5E5 ;
+}
+.border-top{
+     border-top: 2px solid #E5E5E5;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: 600;
+    color: #1A1A1A;
+    font-size: 2rem;
+}
+
+.view {
+    text-decoration: none;
+    color: #00B207;
+}
+
+.star-orange {
+    color: #FF8A00;
+}
+
+.star-grey {
+    color: #CCCCCC;
+}
+
+.sale {
+    background-color: #EA4B48;
+    color: white;
+    width: fit-content;
+    /* padding: 2% 3%; */
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 0.2%;
+    position: absolute;
+    z-index: 0;
+}
 
 /* Navbar */
 .navbar {
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 
 }
 
@@ -228,30 +267,63 @@
 }
 
 /* Popular Categoreis */
-.category .head h2 {
-    font-weight: 600;
-    color: #1A1A1A;
-    font-size: 2rem;
-}
 
-.category .head a {
-    text-decoration: none;
-    color: #00B207;
-}
 
-.products {
-    flex-wrap: wrap;
-}
 
-.products .card {
+.cats .card {
     height: 213px;
     border: 2px solid #E5E5E5;
     border-radius: 8px;
     outline: none;
     text-align: center;
 }
-.products .card h3{
+
+.cats .card h3 {
     font-weight: 500;
     color: #1A1A1A;
 }
-/* TODO: hover Cats */
+
+.cats .card:hover {
+    box-shadow: 0px 8px 30px rgba(0, 38, 3, 0.288);
+    border-color: #2C742F;
+}
+
+.cats .card:hover h3 {
+    color: #2C742F;
+}
+
+/* Popular products */
+.prods{
+    align-items: stretch;
+}
+.continer {
+    padding: 1%;
+    /* border-top: 2px solid #E5E5E5;
+    border-right:2px solid #E5E5E5 ; */
+    border-left: 2px solid #E5E5E5;
+    border-bottom: 2px solid #E5E5E5;
+    
+}
+
+.bag {
+    background-color: #F2F2F2;
+    padding: 3% 0;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.continer:hover {
+    box-shadow: 0px 8px 30px rgba(0, 38, 3, 0.288);
+    border-color: #2C742F;
+}
+
+.continer:hover .hover-green {
+    color: #2C742F;
+}
+
+.continer:hover .bag {
+    color: white;
+    background-color: #00B207;
+}
+
