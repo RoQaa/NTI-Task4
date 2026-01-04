@@ -366,6 +366,11 @@ ul {
     width: 40%;
 
 }
+.continer-deal:hover .bag {
+    color: white;
+    background-color: #00B207;
+}
+
 
 
 /* Lastest News */
