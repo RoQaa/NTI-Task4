@@ -72,6 +72,10 @@
     width: 35%;
 }
 
+.w-38 {
+    width: 38%;
+}
+
 .w-45 {
     width: 45%;
 }
@@ -100,7 +104,7 @@
     width: 90%;
 }
 
-.mLeft-3{
+.mLeft-3 {
     margin-left: 3%;
 }
 
@@ -209,7 +213,7 @@
 
 .vrLine {
     background-color: #E6E6E6;
-    width: 22px;
+    width: 33px;
     height: 1px;
     color: #E6E6E6;
     transform: rotate(90deg);
@@ -373,4 +377,76 @@
     font-size: 14px;
     color: #666666;
     font-weight: 400;
+}
+
+/* testimonials */
+.arrows {
+    text-align: end;
+}
+
+.arrow {
+    padding: 2%;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background-color: white;
+    color: #1A1A1A;
+    outline: none;
+    border: none;
+}
+
+.arrow:hover {
+    background-color: #00B207;
+    color: white;
+}
+
+.profile-image1 {
+    background-image: url("../imgs/users/user1.jpg");
+}
+
+.profile-image2 {
+    background-image: url("../imgs/users/user2.jpg");
+}
+
+.profile-image3 {
+    background-image: url("../imgs/users/user3.jpg");
+}
+
+.profile-image1,
+.profile-image2,
+.profile-image3 {
+    width: 30%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+/* Instgram logos */
+
+.photo {
+    width: 15%;
+    aspect-ratio: 1/1;
+    /* background-color: red; */
+    border-radius: 10px;
+    background-size: cover;
+    background-position: 0 33%;
+    /* position: absolute; */
+    overflow: hidden;
+    
+}
+
+.ov {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 2rem;
+    background-color: hsla(124, 33%, 26%, 0.8);
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+.photo:hover .ov{
+    opacity: 1;
 }
