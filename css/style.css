@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
 :root {
     --main-color: #333333;
 }
@@ -255,9 +259,7 @@
     padding: 1.3% 0;
 }
 
-.navbar .bottom ul {
-    list-style: none;
-}
+
 
 .navbar .bottom .link {
     color: #999999;
@@ -433,7 +435,7 @@
     background-position: 0 33%;
     /* position: absolute; */
     overflow: hidden;
-    
+
 }
 
 .ov {
@@ -445,8 +447,85 @@
     justify-content: center;
     opacity: 0;
     transition: all 0.5s;
-    
+
 }
-.photo:hover .ov{
+
+.photo:hover .ov {
     opacity: 1;
+}
+
+/* Subscribtion */
+.Subscribtion {
+    padding: 4% 0;
+}
+
+.subscribe-box {
+    background: #fff;
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-box input {
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.subscribe-box button {
+    border: none;
+    background: #1dbf2f;
+    color: white;
+    padding: 3% 8%;
+    align-self: stretch;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.icons {}
+
+.icons .icon {
+    width: 23%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    color: #4D4D4D;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+.icons .icon:hover {
+    background-color: #00B207;
+    color: white;
+}
+
+/* Footer */
+
+.footer {
+    color: white;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ul li {
+    /* margin-bottom: 15% ; */
+    color: #999999;
+}
+
+.copyright{
+    border-top: 1px solid #666666 ;
+    padding-top: 3%;
+    color:#666666 ;
 }
